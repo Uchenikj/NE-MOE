@@ -1,0 +1,11 @@
+.text ul li:active{
+    text-decoration:underline;
+    color:red;
+    font-size: 40px;
+}
+.text ul li ul{
+    display: none;
+}
+.text ul li:active ul{
+    display: block;
+}
